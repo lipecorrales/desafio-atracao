@@ -92,7 +92,7 @@ main form label:not([for="comm"]) {
   text-align: right;
   padding-right: 50px;  
   margin-right: 10px;
-  display: inline-block;
+  /* display: inline-block; */
   margin-bottom: 0.25rem;
   font-size: 16px !important;
   
@@ -271,6 +271,13 @@ img {
     text-align: center;
 }
 
+.navControls {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
 /* -- Responsivo -- */
 
 @media (max-width: 600px) {
@@ -298,10 +305,73 @@ img {
   }
 }
 
+/* Responsivo */
 
-.navControls {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  text-align: center;
+@media screen and (max-width: 329px) {
+  .perfil {
+    width: 100%;
+  }
 }
+
+@media screen and (max-width: 380px) {
+  .navControls {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .main {
+    padding: 150px 0 1% 0;
+  }
+
+  .card, .card-link {
+    width: 100%;
+  }
+
+  div[vw].enabled {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .logo {
+    padding: 191px 0 1% 0;
+  }
+
+  .sobre, .wrapperForm, .saibaMais {
+    padding: 191px 0 1% 0;
+  }
+
+  .card, .card-link {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 330px) and (max-width: 499px) {
+  .perfil {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+  .perfil {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 960px) {
+  .card, .card-link {
+    width: 38%;
+  }
+}
+
+
