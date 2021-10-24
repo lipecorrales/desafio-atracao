@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-    background: #ffffff;
+    background: #004b8c;
     color: black;
     padding: 0;
     margin: 0;
@@ -42,14 +42,14 @@ h4 {
     display: center;
     justify-content: space-around;
     align-items: center;
-    margin: .7em auto;
-    padding: 10px;
+    margin: .1em auto;
+    
 }
 header img {    
     padding: .2em;
     margin: 0 auto;
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     
 }
 header h1, header h2 {
@@ -251,8 +251,8 @@ input:required:valid {
 }
 
 img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 #footer {     
@@ -271,12 +271,21 @@ img {
     text-align: center;
 }
 
+
 .navControls {
   margin: auto;
   width: 60%;
   padding: 10px;
   text-align: center;
 }
+
+.navControls ul {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
 
 /* -- Responsivo -- */
 
